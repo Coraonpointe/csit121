@@ -1,0 +1,70 @@
+/*Whole page styles*/
+body {
+    background-color: rgb(150, 111, 93);
+
+}
+/*Heading Styles*/
+h2{
+    color: rgb(17, 83, 61);
+    background-color: rgb(150, 184, 230);
+    padding: 10px;
+    text-align: center;
+    border: solid;
+}
+h3{
+    color: rgb(122, 211, 184);
+    border: dotted;
+    background-color: rgb(23, 119, 126);
+    padding: 5px;
+}
+header {
+    color: rgb(79, 121, 107);
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h4{
+background-color: rgb(166, 168, 26);
+}
+/*Body Styles*/
+p{
+    font-size: large;
+    color: bisque;
+    background-color: rgb(85, 59, 10);
+    padding: 20px;
+}
+.center,img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  body{ 
+    background-image: url(images/waterjpg.JPG)
+  }
+  footer {
+    color: rgb(49, 190, 172);
+  }
+/*Navagation Styles*/
+nav {
+    background-color: aqua;
+    text-align: center;
+    word-spacing: 124px;
+    padding: 5px;
+    font-size: 18px;
+    border: solid;
+    border-color: rgb(7, 158, 168);
+    border-width: 10px;
+    
+
+}
+a:link {
+    color: rgb(164, 50, 187);
+}
+a:visited{
+    color: rgb(11, 51, 63);
+    
+}
+a:hover{
+    color: rgb(68, 112, 99);
+}
