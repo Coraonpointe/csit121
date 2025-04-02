@@ -1,0 +1,55 @@
+/*General*/
+* {
+    background-color: rgb(90, 143, 156);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Body*/
+header {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(75, 24, 85);
+}
+.center, img {
+    display: block;
+    margin:auto;
+    padding: 25px;
+    width: 65%;
+}
+
+p {
+   background-color: rgb(215, 246, 250);
+   padding: 10px;
+   margin: 25px;
+   font-size: 20px;
+   box-shadow: 0px 2px 5px;
+   color: rgb(39, 161, 161);
+   
+}
+
+ul {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+ 
+
+a {
+    color: black; 
+}
+
+a:hover {
+    color: rgb(245, 245, 220);
+}
+
+footer {
+    padding: 10px;
+    border-style:dotted;
+    background-color: rgb(51, 97, 97);
+    color:rgb(130, 158, 236);
+
+}
+
