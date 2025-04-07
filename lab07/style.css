@@ -1,0 +1,81 @@
+/*General*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 64, 68);
+}
+
+/*Table Style*/
+table , tr, td {
+    border: solid 1px black;
+    background-color: rgb(93, 119, 141);
+    padding: 10px;
+    text-align: center;
+    
+}
+
+caption {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(121, 108, 243);
+}
+
+/*Form*/
+
+form {
+    word-spacing: 2px;
+    line-height: 50px;
+}
+input {
+    margin:10px;
+    padding: 5px;
+    color: rgb(189, 130, 176);
+
+    
+}
+label {
+    color: aliceblue;
+}
+#submit {
+    color: aqua;
+    background-color: aquamarine;
+}
+
+/*Body*/
+
+nav {
+    padding: 10px;
+    border: solid;
+    margin: 10px;
+    text-align: center;
+    border-color: rgb(32, 112, 204);
+
+}
+
+nav a:link {
+    color: rgb(175, 238, 191);
+    padding: 10px;
+}
+nav a:hover {
+    color: aliceblue;
+    background-color: aqua;
+}
+nav a:visited{
+color: rgb(52, 163, 163);
+}
+p{
+    background-color: rgb(174, 198, 209) ;
+    line-height: 40px;
+    margin: 5px;
+}
+h2{
+    color: rgb(175, 238, 191);
+    padding: 10px;
+}
+header {
+    background-color: rgb(209, 174, 209);
+    font-size: 35px;
+}
+footer {
+    padding: 20px;
+    color: aliceblue;
+}
