@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Art & Photography</header>
+    <div id="mySidenav" class="sidenav"> <!--This code is from this link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav-->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="secondpage.html">Flowers</a>
+        <a href="thirdpage.html">Seagull</a>
+        <a href="fourthpage.html">Art</a>
+      </div>
+      
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+    <main>
+        <h2>Art & Photography</h2>
+        <p>These pages contain pictures of photography and art. The photography is taken by me and the art was not done by me.
+        Art is something I love to create is many different forms. Photography is one of those forms. I hope you enjoy the photography and the detail of 
+    art displayed. </p>
+
+       
+
+    </main>
+    <footer>&copy; Cora Higgins 2025</footer>
+</body>
+</html>
