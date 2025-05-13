@@ -1,0 +1,78 @@
+/*General*/
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+  body{ 
+    background-image: url(seawaves.jpg) 
+  } /*this image is one that I took*/
+
+header {
+    font-size: 30px;
+    color: rgb(40, 43, 83);
+}
+
+footer {
+    color: rgb(15, 56, 66);
+}
+h2{
+    color: rgb(49, 33, 109);
+}
+h3 {
+    color:rgb(32, 33, 105);
+    
+}
+p {
+    background-color: rgb(46, 94, 109);
+    padding: 20px;
+}
+/*Table*/
+table , tr, td {
+    border: solid 1px black;
+    background-color: rgb(93, 119, 141);
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+    
+    
+}
+caption {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(6, 51, 94);
+    background-color: rgb(126, 96, 57);
+}
+.center, table {
+  margin-left: auto;
+  margin-right: auto;
+} /*found this at this website: https://www.w3schools.com/howto/howto_css_table_center.asp */
+
+/*Navagation*/
+
+nav {
+    background-color: rgb(151, 106, 47);
+    text-align: center;
+}
+
+a:link {
+    color: rgb(86, 194, 194);
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+/*Media*/
+@media (min-width: 600px) {
+  body {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        
+    }
+}
